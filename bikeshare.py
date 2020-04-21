@@ -147,8 +147,6 @@ def trip_duration_stats(df):
     mean_travel = df['Trip Duration'].mean()
     print('The average travel time is {}.'.format(mean_travel))
 
-
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -203,7 +201,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
