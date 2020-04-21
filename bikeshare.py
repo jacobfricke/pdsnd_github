@@ -1,3 +1,4 @@
+# import libraries
 import time
 import pandas as pd
 import numpy as np
@@ -25,7 +26,7 @@ def get_filters():
             break
         else:
             print('The input is not valid.')
-            
+
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         month = input('Please insert the month you want to analzye (January to June). Type in "All" for all six months: ').title()
@@ -66,19 +67,19 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    
+
     df = pd.read_csv(city.replace(" ", "_").lower() + '.csv')
 
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month_name()
     df['weekday'] = df['Start Time'].dt.day_name()
-    
+
     if month != 'All':
         df = df[df['month'] == month]
-        
+
     if day != 'All':
         df = df[df['weekday'] == day]
-    
+
     return df
 
 
