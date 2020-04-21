@@ -42,3 +42,6 @@ They can be downloaded here: https://www.divvybikes.com/system-data
 
 ## Credits
 This is a fork of https://github.com/udacity/pdsnd_github
+
+## Contact
+jacob.fricke (at) gmail.com
