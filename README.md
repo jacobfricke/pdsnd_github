@@ -1,11 +1,12 @@
-### 2020-04-21
-Include the date you created this project and README file.
+### Date created
+Project created: 2020-04-15
+Readme created: 2020-04-21
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+In this project, I wrote Python code to import US bike share data and answered interesting questions about it by computing descriptive statistics. I also wrote a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
 Include the files used
