@@ -1,4 +1,9 @@
+<<<<<<< .merge_file_1LeIrg
 # import libraries
+||||||| .merge_file_Qkwnes
+=======
+# Import libraries
+>>>>>>> .merge_file_RJKtnK
 import time
 import pandas as pd
 import numpy as np
@@ -7,6 +12,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# Define filters
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -146,8 +152,6 @@ def trip_duration_stats(df):
     mean_travel = df['Trip Duration'].mean()
     print('The average travel time is {}.'.format(mean_travel))
 
-
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -202,7 +206,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
