@@ -1,6 +1,6 @@
 ## Date created
-Project created: 2020-04-15
-Readme created: 2020-04-21
+- Project created: 2020-04-15
+- Readme created: 2020-04-21
 
 ## Project Title
 Explore US Bikeshare Data
